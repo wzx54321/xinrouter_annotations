@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+//jitpack 2
+apply plugin: 'com.github.dcendents.android-maven'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
+
+
+
+
